@@ -44,5 +44,5 @@ print(f"Current Accuracy (R2 Score): {accuracy:.4f}")
 
 # 7. Generate Submission
 final_predictions = model.predict(test_encoded)
-pd.DataFrame({'yhat': final_predictions}).to_csv('CW1_submission_K23170694_GradientBossting.csv', index=False)
+pd.DataFrame({'yhat': final_predictions}).to_csv('CW1_submission_K23170694_GradientBoosting.csv', index=False)
 print("Submission file saved.")
