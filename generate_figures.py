@@ -81,7 +81,7 @@ axes[1].scatter(y_val, y_pred, alpha=0.2, s=5, color='#8e44ad')
 lims = [min(y_val.min(), y_pred.min()), max(y_val.max(), y_pred.max())]
 axes[1].plot(lims, lims, 'r--', linewidth=1.3)
 axes[1].set_xlabel('Actual'); axes[1].set_ylabel('Predicted')
-axes[1].set_title(r'Predicted vs Actual  ($R^2=0.4706$)', fontsize=9, fontweight='bold')
+axes[1].set_title(r'Predicted vs Actual  ($R^2=0.4715$)', fontsize=9, fontweight='bold')
 plt.tight_layout(pad=0.8)
 plt.savefig('figC_eval.png', dpi=160, bbox_inches='tight')
 plt.close()
